@@ -1,0 +1,4 @@
+nguage: php
+php:
+    - 7.1
+script: phpunit Test.php
