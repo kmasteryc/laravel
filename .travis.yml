@@ -1,4 +1,6 @@
-nguage: php
+language: php
 php:
     - 7.1
-script: phpunit Test.php
+script: 
+    - ./vendor/bin/phpunit
+    - phpcs app
